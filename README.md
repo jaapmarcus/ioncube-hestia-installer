@@ -16,3 +16,5 @@ echo "zend_extension=ioncube_loader_lin_$php_version.so" > /etc/php/$php_version
 ```
 
 And restart apache2 via v-restart-web
+
+Was it usefull please send a [donation to Hestiacp](https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=ST87LQH2CHGLA)
