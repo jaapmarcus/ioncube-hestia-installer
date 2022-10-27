@@ -8,7 +8,7 @@ chmod +x install_ioncube.sh
 ./install_ioncube.sh
 ```
 
-Will install both php-fpm / and cli
+Will install both php-fpm and cli
 
 If you are still using modphp use:
 ```
