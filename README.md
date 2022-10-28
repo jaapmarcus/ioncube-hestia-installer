@@ -1,6 +1,6 @@
 # ioncube-hestia-installer
 
-Run in terminal / login via ssh 
+Run in terminal / login via ssh and run as root!
 
 ```
 wget https://raw.githubusercontent.com/jaapmarcus/ioncube-hestia-installer/main/install_ioncube.sh
