@@ -10,6 +10,18 @@ chmod +x install_ioncube.sh
 
 Will install both php-fpm and cli
 
+## Older installs of Ioncube
+
+If you have an older version all ready installed that is installed other ways than this method remove them first.
+
+## Update IonCube / Add new PHP versions
+
+If an install has been made with this script before it is save enough to run this system again. 
+
+
+
+## ModPHP (Old Apache2 default before 1.2.0)
+
 If you are still using modphp use:
 ```
 echo "zend_extension=ioncube_loader_lin_$php_version.so" > /etc/php/$php_version/apache2conf.d/00-ioncube-loader.ini
