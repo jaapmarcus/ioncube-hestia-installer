@@ -10,6 +10,18 @@ chmod +x install_ioncube.sh
 
 Will install both php-fpm and cli
 
+## Suported PHP versions
+
+- php8.1
+- php7.4
+- php7.3
+- php7.2
+- php7.1
+- php7.0
+- php5.6
+
+If IonCube decides to ad a new version as supported it should be included by default. This list might be behind the current supported php versions. 
+
 ## Older installs of Ioncube
 
 If you have an older version all ready installed that is installed other ways than this method remove them first.
