@@ -17,7 +17,7 @@ wget $url -O - | tar -xz
 for php_version in $($HESTIA/bin/v-list-sys-php plain); do
         # Check if ioncube version is supported for example 8.0 is not availble!
         if [ ! -f "./ioncube/ioncube_loader_lin_$php_version.so" ]; then 
-                echo "PHP$php_version is currently not supported"
+                echo "PHP$php_version is currently not supported by ionCube"
                 continue
         fi
         # Get extension dir and don't depend on user input
