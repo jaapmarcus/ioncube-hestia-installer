@@ -29,11 +29,10 @@ for php_version in $($HESTIA/bin/v-list-sys-php plain); do
         # Add to conf.d folder for php-fpm and cli
         echo "zend_extension=ioncube_loader_lin_$php_version.so" > /etc/php/$php_version/fpm/conf.d/00-ioncube-loader.ini
         echo "zend_extension=ioncube_loader_lin_$php_version.so" > /etc/php/$php_version/cli/conf.d/00-ioncube-loader.ini
-        # restart version
-        $HESTIA/bin/v-restart-service  php$php_version-fpm
-        echo "PHP $php_version successfully updated"
+   
 done
 
+$HESTIA/bin/v-restart-service 'php-fpm' yes
 #clean up the trash
 rm -fr ioncube
 
