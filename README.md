@@ -22,6 +22,9 @@ Will install both php-fpm and cli
 
 If IonCube decides to ad a new version as supported it should be included by default. This list might be behind the current supported php versions. 
 
+Note: PHP8.0 is currently not supported and will not recive any support by Ioncube. 
+https://blog.ioncube.com/2022/08/12/ioncube-php-8-1-support-faq-were-almost-ready/
+
 ## Older installs of Ioncube
 
 If you have an older version all ready installed that is installed other ways than this method remove them first.
