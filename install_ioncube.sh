@@ -29,7 +29,7 @@ for php_version in $($HESTIA/bin/v-list-sys-php plain); do
         # Add to conf.d folder for php-fpm and cli
         echo "zend_extension=ioncube_loader_lin_$php_version.so" > /etc/php/$php_version/fpm/conf.d/00-ioncube-loader.ini
         echo "zend_extension=ioncube_loader_lin_$php_version.so" > /etc/php/$php_version/cli/conf.d/00-ioncube-loader.ini
-        echo "IonCube has been enabled for PHP$php_version to verify please run /usr/bin/php$php_version -V"
+        echo "IonCube has been enabled for PHP$php_version to verify please run /usr/bin/php$php_version -v"
    
 done
 
