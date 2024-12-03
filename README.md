@@ -12,6 +12,8 @@ Will install both php-fpm and cli
 
 ## Suported PHP versions
 
+- php8.4
+- php8.3
 - php8.2
 - php8.1
 - php7.4
